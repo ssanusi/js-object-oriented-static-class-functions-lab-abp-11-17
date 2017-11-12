@@ -10,7 +10,7 @@ static All(){
     this.constructor._All.push(this)
   }
   static Find(id){
-    return this.constructor._All[id - 1]
+    return this._All[id - 1]
   }
 }
 
