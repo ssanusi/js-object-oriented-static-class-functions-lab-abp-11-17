@@ -1,4 +1,5 @@
 'use strict';
 class Question{
-Question._All = []
+
 }
+Question._All = []
