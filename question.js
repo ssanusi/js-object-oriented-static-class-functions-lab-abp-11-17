@@ -1,7 +1,7 @@
 'use strict';
 class Question{
   constructor(){
-    
+
   }
 static All(){
   return this._All;
@@ -10,7 +10,7 @@ static All(){
     this.constructor._All.push(this)
   }
   static Find(id){
-    return this.constructor._All[id + 1]
+    return this.constructor._All[id - 1]
   }
 }
 
