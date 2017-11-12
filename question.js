@@ -1,6 +1,6 @@
 'use strict';
 class Question{
-static .All(){
+static All(){
   return 
 }
 }
